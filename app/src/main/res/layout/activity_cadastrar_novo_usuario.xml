@@ -3,99 +3,73 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp">
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:layout_marginBottom="15dp"
         android:text="Cadastrar Usuário"
         android:padding="10dp"
         android:gravity="center"/>
-
-    <TextView
-        android:id="@+id/nome"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Nome Completo" />
-
-    <EditText
-        android:id="@+id/nomealuno"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/intelefone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Telefone" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/no"
+        android:id="@+id/img_carona"
+        android:layout_gravity="center_horizontal" />
 
     <EditText
-        android:id="@+id/telefone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/incurso"
+        android:id="@+id/txt_nome_carona"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Curso" />
+        android:hint="Nome completo"/>
 
     <EditText
-        android:id="@+id/textView8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/telefone_carona"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Campus" />
+        android:hint="Telefone"/>
+
+    <EditText
+        android:id="@+id/curso_carona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Curso"/>
 
     <EditText
         android:id="@+id/txtcampus"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Endereço" />
+        android:hint="Campus"/>
 
     <EditText
         android:id="@+id/txtendereco"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email" />
+        android:hint="Endereço"/>
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textEmailAddress" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Senha" />
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
 
     <EditText
         android:id="@+id/editText4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPassword" />
+        android:inputType="numberPassword"
+        android:hint="Senha"/>
 
     <Button
-        android:id="@+id/btncadastraraluno"
+        android:id="@+id/btn_cadastrar_carona"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cadastrar" />

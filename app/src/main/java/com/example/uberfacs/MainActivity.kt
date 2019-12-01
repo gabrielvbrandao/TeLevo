@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,13 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val contextoAtual: Context = this
-
-        val btnLoginNovoUsuario = findViewById<Button>(R.id.btn_novo_usuario)
-
-        btnLoginNovoUsuario.setOnClickListener {
-            val intent = Intent(contextoAtual
-                ,CadastrardiasMotoristaActivity::class.java)
+        btn_novo_usuario.setOnClickListener {
+            val intent = Intent(this, CadastrarNovoUsuarioActivity::class.java)
             startActivity(intent)
         }
     }
