@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/txt_login_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insira o usuário"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="260dp"
+        android:padding="30dp"/>
+
+    <EditText
+        android:id="@+id/txt_login_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insira a senha"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="319dp"
+        android:padding="30dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acessar"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="397dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btn_novo_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastre-se"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+</LinearLayout>

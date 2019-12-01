@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btncaronacampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encontrar Carona no Campus" />
+
+    <Button
+        android:id="@+id/btncaronaregiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encontrar Carona em casa" />
+
+    <Button
+        android:id="@+id/btncadastrardias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Dias" />
+
+    <Button
+        android:id="@+id/btnsairpainelaluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair" />
+</LinearLayout>
